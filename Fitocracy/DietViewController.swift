@@ -7,14 +7,15 @@
 
 import UIKit
 
-class DietViewController: UIViewController ,UITableViewDelegate,UITableViewDataSource {
+class DietViewController: UIViewController  {
     @IBOutlet weak var nexxt: UIButton!
-    var arrImgData = [UIImage]()
-    var titles:[String] = ["Vegetarian","Non-Vegetarian","Vegan"]
-    var detail:[String] = ["A meal plan full of all essentials yet no Meat or fish","A meal plan with no compromises on animal based protiens","A meal plan with the which wont make you feel guilty"]
     
+    @IBOutlet weak var veg: UIButton!
     
-    @IBOutlet weak var dietCV: UITableView!
+    @IBOutlet weak var nonVeg: UIButton!
+    
+    @IBOutlet weak var vegann: UIButton!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,30 +26,51 @@ class DietViewController: UIViewController ,UITableViewDelegate,UITableViewDataS
         imageView.contentMode = .scaleAspectFill
         view.addSubview(imageView)
         self.view.sendSubviewToBack(imageView)
-        dietCV.delegate = self
-        dietCV.dataSource = self
-        dietCV.register(UINib.init(nibName: "DietTableViewCell", bundle: nil), forCellReuseIdentifier: "cell")
-        arrImgData = [#imageLiteral(resourceName: "Vector-2"),#imageLiteral(resourceName: "Vector-3"),#imageLiteral(resourceName: "Group-2")]
         nexxt.layer.cornerRadius = 15
         nexxt.clipsToBounds = true
+        
 
         // Do any additional setup after loading the view.
     }
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        arrImgData.count
+    
+    @IBAction func vege(_ sender: UIButton) {
+        if sender.isSelected {
+            sender.isSelected = false
+            nonVeg.isSelected = false
+            vegann.isSelected = false
+            
+        } else{
+            sender.isSelected = true
+            nonVeg.isSelected = false
+            vegann.isSelected = false
+        }
     }
     
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! DietTableViewCell
-        cell.vector.image = arrImgData[indexPath.row]
-        cell.title.text = titles[indexPath.row]
-        cell.details.text = detail[indexPath.row]
-        return cell
+    @IBAction func nonVege(_ sender: UIButton) {
+        if sender.isSelected {
+            sender.isSelected = false
+            veg.isSelected = false
+            vegann.isSelected = false
+            
+        } else{
+            sender.isSelected = true
+            veg.isSelected = false
+            vegann.isSelected = false
+        }
     }
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 80
+    
+    @IBAction func vegan(_ sender: UIButton) {
+        if sender.isSelected {
+            sender.isSelected = false
+            veg.isSelected = false
+            nonVeg.isSelected = false
+            
+        } else{
+            sender.isSelected = true
+            veg.isSelected = false
+            nonVeg.isSelected = false
+        }
     }
-
     /*
     // MARK: - Navigation
 

@@ -1,23 +1,19 @@
 //
-//  StartSurveyViewController.swift
+//  LoginViewController.swift
 //  Fitocracy
 //
-//  Created by riddhi gupta on 20/03/21.
+//  Created by riddhi gupta on 21/03/21.
 //
 
 import UIKit
 
-class StartSurveyViewController: UIViewController {
+class LoginViewController: UIViewController {
 
-    @IBOutlet weak var nexxt: UIButton!
-    @IBOutlet weak var weight: UITextField!
-    @IBOutlet weak var height: UITextField!
-    @IBOutlet weak var name: UILabel!
-    @IBOutlet weak var sex: UITextField!
-    @IBOutlet weak var activitySC: UISegmentedControl!
-    @IBOutlet weak var age: UITextField!
+    @IBOutlet weak var login: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
+        login.layer.cornerRadius = 15
+        login.clipsToBounds = true
         let imageName = "Diet.png"
         let image = UIImage(named: imageName)
         let imageView = UIImageView(image: image!)
@@ -25,11 +21,6 @@ class StartSurveyViewController: UIViewController {
         imageView.contentMode = .scaleAspectFill
         view.addSubview(imageView)
         self.view.sendSubviewToBack(imageView)
-        nexxt.layer.cornerRadius = 15
-        nexxt.clipsToBounds = true
-        activitySC.setTitleTextAttributes([NSAttributedString.Key.foregroundColor: UIColor.purple], for: .selected)
-        
-        activitySC.setTitleTextAttributes([NSAttributedString.Key.foregroundColor: UIColor.gray], for: .normal)
 
         // Do any additional setup after loading the view.
     }

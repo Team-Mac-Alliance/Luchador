@@ -1,0 +1,990 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05588CC12D0F90950B3847CA80378A25 /* Pods-FitocracyTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A5F8C21098D7D603B69E8DE5CFCC8FC /* Pods-FitocracyTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BA46128F8D7479CCD09B2E88C109DB5 /* CBTabItemBasicAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00749FE9A8B2336A440122A60D0E1AF0 /* CBTabItemBasicAnimation.swift */; };
+		118D856F7CB220E45E94BFCDF0110452 /* Pods-FitocracyTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D079FDC9F29DDB040FB56C7E5CB44310 /* Pods-FitocracyTests-dummy.m */; };
+		1728760560C928AC790D890F7311DE1C /* Pods-Fitocracy-FitocracyUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E05D5914FF4FA5F6E2DC476BD163AFA /* Pods-Fitocracy-FitocracyUITests-dummy.m */; };
+		2315B6D345F6F38513B2D945D9962D3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3194E95772974CADAECD1FB23E86E5CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		32759638E345FFB8A912928D1E5C7370 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3910BBF620248927D5D0088E2128F4DA /* Pods-Fitocracy-FitocracyUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF0D0176324EC00ADAD2278B7C22CA38 /* Pods-Fitocracy-FitocracyUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DCBE3FD9516343EC2F88E21C98F6545 /* CBFlashyTabBarController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB596A9DACCCB6DAF36A5A1C56817CFC /* CBFlashyTabBarController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A15123627499A1087BD267801BA5BFC /* CBTabBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6A6300EBCB41FD7B34F326B516BE34 /* CBTabBarButton.swift */; };
+		64FF3B480672980E7CC5FF534AFB629B /* Pods-Fitocracy-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C9E43B0D523BBB681EF30DD5C13AF575 /* Pods-Fitocracy-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		789B3DD682954E923FD35E67E86B74CD /* Pods-Fitocracy-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 04469328A03E42C2F01A93924A299429 /* Pods-Fitocracy-dummy.m */; };
+		87E32330C480E15EA28EE9F7D772696F /* CBTabItemAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0B72846F02B66DA70547C1C782A72A /* CBTabItemAnimation.swift */; };
+		8986CC7B2C9C15F1917E798117F644DC /* CBFlashyTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903C4764E54275687F82F569246DC64A /* CBFlashyTabBar.swift */; };
+		92492D08B5FF542DDD2DF65BBEC64727 /* CBTabItemDeselectAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061B272F6765715577EFB85FD0922E9D /* CBTabItemDeselectAnimation.swift */; };
+		A211362205D10B7E1EB641AC03BB97EF /* CBTabItemSelectAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2A4B418B4459890015AEEE51771CC8 /* CBTabItemSelectAnimation.swift */; };
+		B62CE540AEC6C3C0CCEBC83B4EC04514 /* CBFlashyTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66ADB6780A2B4374E942771268853941 /* CBFlashyTabBarController.swift */; };
+		E82E20D4B21D30CC8A06C5CF540FDCF8 /* CBFlashyTabBarController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 964F055F8F54441F9105859AB238C261 /* CBFlashyTabBarController-dummy.m */; };
+		FB6F67A0003732C33FFAB95480A57185 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		47774BAB1E5E5B21CDBC79E392A7B240 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5737872A76EFCB2A97F445D9434307C7;
+			remoteInfo = CBFlashyTabBarController;
+		};
+		5FF69DC785E0E85A61ED751F5D0984AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FE1CF350417A0AEE9E7714673F62B2A;
+			remoteInfo = "Pods-Fitocracy";
+		};
+		A8E81EBE25D86C3FF7C27F3BF923EE53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5737872A76EFCB2A97F445D9434307C7;
+			remoteInfo = CBFlashyTabBarController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00749FE9A8B2336A440122A60D0E1AF0 /* CBTabItemBasicAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CBTabItemBasicAnimation.swift; path = CBFlashyTabBarController/Classes/Animation/CBTabItemBasicAnimation.swift; sourceTree = "<group>"; };
+		01D5E081A6D9C03F71E1E409ECC33CB0 /* Pods-FitocracyTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FitocracyTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		03CAE88AECD3AEEA158737D4F857A9D1 /* CBFlashyTabBarController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CBFlashyTabBarController.release.xcconfig; sourceTree = "<group>"; };
+		04469328A03E42C2F01A93924A299429 /* Pods-Fitocracy-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Fitocracy-dummy.m"; sourceTree = "<group>"; };
+		061B272F6765715577EFB85FD0922E9D /* CBTabItemDeselectAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CBTabItemDeselectAnimation.swift; path = CBFlashyTabBarController/Classes/Animation/CBTabItemDeselectAnimation.swift; sourceTree = "<group>"; };
+		07D4E958BAD766CBA1D48DEB63D524C9 /* CBFlashyTabBarController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CBFlashyTabBarController.framework; path = CBFlashyTabBarController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		101FACFA9602DE3DCD1C6BC9EBF2644C /* Pods-Fitocracy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Fitocracy.debug.xcconfig"; sourceTree = "<group>"; };
+		180928B17CD859A9A6A04E1B672DB402 /* Pods-Fitocracy-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Fitocracy-acknowledgements.plist"; sourceTree = "<group>"; };
+		1930506017581417BB762C50A1389648 /* Pods-Fitocracy-FitocracyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Fitocracy-FitocracyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1A2A4B418B4459890015AEEE51771CC8 /* CBTabItemSelectAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CBTabItemSelectAnimation.swift; path = CBFlashyTabBarController/Classes/Animation/CBTabItemSelectAnimation.swift; sourceTree = "<group>"; };
+		2343CA8F8625CB0E992CCC4B866A73EA /* Pods_Fitocracy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Fitocracy.framework; path = "Pods-Fitocracy.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2858FFA9CC60138E4021D6ADD116BFA1 /* Pods-Fitocracy-FitocracyUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Fitocracy-FitocracyUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2A5F8C21098D7D603B69E8DE5CFCC8FC /* Pods-FitocracyTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FitocracyTests-umbrella.h"; sourceTree = "<group>"; };
+		2BB2A41A83238F47F4284E0D85CD7EB6 /* Pods-FitocracyTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FitocracyTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3CEA49B2F634502D7C71FFE3C63927F2 /* Pods-FitocracyTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FitocracyTests-Info.plist"; sourceTree = "<group>"; };
+		49AADF3581C8E7CD2D68386C1D000BEE /* Pods-Fitocracy.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Fitocracy.modulemap"; sourceTree = "<group>"; };
+		4E05D5914FF4FA5F6E2DC476BD163AFA /* Pods-Fitocracy-FitocracyUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Fitocracy-FitocracyUITests-dummy.m"; sourceTree = "<group>"; };
+		4E0B72846F02B66DA70547C1C782A72A /* CBTabItemAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CBTabItemAnimation.swift; path = CBFlashyTabBarController/Classes/Animation/CBTabItemAnimation.swift; sourceTree = "<group>"; };
+		501A7C5E0D6EFA9DE3D005FE74188E7E /* Pods-Fitocracy-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Fitocracy-acknowledgements.markdown"; sourceTree = "<group>"; };
+		556B5C81958FAB34EC5E2FF7278A0C59 /* Pods-FitocracyTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FitocracyTests.modulemap"; sourceTree = "<group>"; };
+		655D25D047649DFA7F099E04B065C103 /* Pods-Fitocracy-FitocracyUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Fitocracy-FitocracyUITests-frameworks.sh"; sourceTree = "<group>"; };
+		66ADB6780A2B4374E942771268853941 /* CBFlashyTabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CBFlashyTabBarController.swift; path = CBFlashyTabBarController/Classes/CBFlashyTabBarController.swift; sourceTree = "<group>"; };
+		6B4E587FA20D0760E20A5E5CD6271B6E /* Pods-Fitocracy-FitocracyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Fitocracy-FitocracyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		728F56D58FC7EDBFD487DE4C368A069C /* Pods_FitocracyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FitocracyTests.framework; path = "Pods-FitocracyTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		77F6E113DD35D55EA43E9FF6BDCF14DD /* CBFlashyTabBarController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CBFlashyTabBarController.modulemap; sourceTree = "<group>"; };
+		7B91B1098565DC7A60758DC07DDC5908 /* CBFlashyTabBarController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CBFlashyTabBarController.debug.xcconfig; sourceTree = "<group>"; };
+		8D357D22C297C079D4616D6B02B8D09A /* CBFlashyTabBarController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CBFlashyTabBarController-Info.plist"; sourceTree = "<group>"; };
+		8E7D00F0331949E2471978FE7A03E278 /* Pods-Fitocracy-FitocracyUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Fitocracy-FitocracyUITests-Info.plist"; sourceTree = "<group>"; };
+		903C4764E54275687F82F569246DC64A /* CBFlashyTabBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CBFlashyTabBar.swift; path = CBFlashyTabBarController/Classes/CBFlashyTabBar.swift; sourceTree = "<group>"; };
+		941BE188C756CE7699F45A802B5EE906 /* CBFlashyTabBarController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CBFlashyTabBarController-prefix.pch"; sourceTree = "<group>"; };
+		964F055F8F54441F9105859AB238C261 /* CBFlashyTabBarController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CBFlashyTabBarController-dummy.m"; sourceTree = "<group>"; };
+		971EA86775F1BC1AF60F2F609F16355F /* Pods-Fitocracy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Fitocracy.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B4B4B545B431C1F471B323C9E8C68104 /* Pods-Fitocracy-FitocracyUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Fitocracy-FitocracyUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BE97762C0B559F097894CBAB1BCF8E23 /* Pods-FitocracyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FitocracyTests.release.xcconfig"; sourceTree = "<group>"; };
+		C1F4F8FD1DEEABE6506C7B97D68EBB0C /* Pods-Fitocracy-FitocracyUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Fitocracy-FitocracyUITests.modulemap"; sourceTree = "<group>"; };
+		C9E43B0D523BBB681EF30DD5C13AF575 /* Pods-Fitocracy-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Fitocracy-umbrella.h"; sourceTree = "<group>"; };
+		CB596A9DACCCB6DAF36A5A1C56817CFC /* CBFlashyTabBarController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CBFlashyTabBarController-umbrella.h"; sourceTree = "<group>"; };
+		D079FDC9F29DDB040FB56C7E5CB44310 /* Pods-FitocracyTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FitocracyTests-dummy.m"; sourceTree = "<group>"; };
+		DF0D0176324EC00ADAD2278B7C22CA38 /* Pods-Fitocracy-FitocracyUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Fitocracy-FitocracyUITests-umbrella.h"; sourceTree = "<group>"; };
+		F09B9555F07B728D92A206D09568D3FE /* Pods_Fitocracy_FitocracyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Fitocracy_FitocracyUITests.framework; path = "Pods-Fitocracy-FitocracyUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC5BDA9C4CBF4BC425023326B9BB0114 /* Pods-Fitocracy-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Fitocracy-frameworks.sh"; sourceTree = "<group>"; };
+		FC7DABBA4D19A7F40A8BAE7E5B5927E2 /* Pods-Fitocracy-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Fitocracy-Info.plist"; sourceTree = "<group>"; };
+		FED6CFDFF3BB85EC0B1480A1871EFFE1 /* Pods-FitocracyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FitocracyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FF6A6300EBCB41FD7B34F326B516BE34 /* CBTabBarButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CBTabBarButton.swift; path = CBFlashyTabBarController/Classes/CBTabBarButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D38945FF156181BE7A7408402A8F4CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB6F67A0003732C33FFAB95480A57185 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BEE1D632B16A9ACCFF58495438976F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3194E95772974CADAECD1FB23E86E5CC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		926D742B24516402BBC4E8C89480A940 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32759638E345FFB8A912928D1E5C7370 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F595165DBDAD93623AB3CEA76B75F7CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2315B6D345F6F38513B2D945D9962D3D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		079754D3F01B868A996A8F5D25D033E1 /* CBFlashyTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				903C4764E54275687F82F569246DC64A /* CBFlashyTabBar.swift */,
+				66ADB6780A2B4374E942771268853941 /* CBFlashyTabBarController.swift */,
+				FF6A6300EBCB41FD7B34F326B516BE34 /* CBTabBarButton.swift */,
+				4E0B72846F02B66DA70547C1C782A72A /* CBTabItemAnimation.swift */,
+				00749FE9A8B2336A440122A60D0E1AF0 /* CBTabItemBasicAnimation.swift */,
+				061B272F6765715577EFB85FD0922E9D /* CBTabItemDeselectAnimation.swift */,
+				1A2A4B418B4459890015AEEE51771CC8 /* CBTabItemSelectAnimation.swift */,
+				E53E6D4D0E20AAA92C9BC54F3D923D48 /* Support Files */,
+			);
+			name = CBFlashyTabBarController;
+			path = CBFlashyTabBarController;
+			sourceTree = "<group>";
+		};
+		218AE60DDA6412E826C50B42EC9BDE81 /* Pods-Fitocracy */ = {
+			isa = PBXGroup;
+			children = (
+				49AADF3581C8E7CD2D68386C1D000BEE /* Pods-Fitocracy.modulemap */,
+				501A7C5E0D6EFA9DE3D005FE74188E7E /* Pods-Fitocracy-acknowledgements.markdown */,
+				180928B17CD859A9A6A04E1B672DB402 /* Pods-Fitocracy-acknowledgements.plist */,
+				04469328A03E42C2F01A93924A299429 /* Pods-Fitocracy-dummy.m */,
+				FC5BDA9C4CBF4BC425023326B9BB0114 /* Pods-Fitocracy-frameworks.sh */,
+				FC7DABBA4D19A7F40A8BAE7E5B5927E2 /* Pods-Fitocracy-Info.plist */,
+				C9E43B0D523BBB681EF30DD5C13AF575 /* Pods-Fitocracy-umbrella.h */,
+				101FACFA9602DE3DCD1C6BC9EBF2644C /* Pods-Fitocracy.debug.xcconfig */,
+				971EA86775F1BC1AF60F2F609F16355F /* Pods-Fitocracy.release.xcconfig */,
+			);
+			name = "Pods-Fitocracy";
+			path = "Target Support Files/Pods-Fitocracy";
+			sourceTree = "<group>";
+		};
+		363C09A264F47B3659ECA90ECB38AE4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07D4E958BAD766CBA1D48DEB63D524C9 /* CBFlashyTabBarController.framework */,
+				2343CA8F8625CB0E992CCC4B866A73EA /* Pods_Fitocracy.framework */,
+				F09B9555F07B728D92A206D09568D3FE /* Pods_Fitocracy_FitocracyUITests.framework */,
+				728F56D58FC7EDBFD487DE4C368A069C /* Pods_FitocracyTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5A1D44C3B1A35E05B2F214DAF6009B6C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				079754D3F01B868A996A8F5D25D033E1 /* CBFlashyTabBarController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		847A2DBF2335264760FB4C0DCD68FA74 /* Pods-FitocracyTests */ = {
+			isa = PBXGroup;
+			children = (
+				556B5C81958FAB34EC5E2FF7278A0C59 /* Pods-FitocracyTests.modulemap */,
+				01D5E081A6D9C03F71E1E409ECC33CB0 /* Pods-FitocracyTests-acknowledgements.markdown */,
+				2BB2A41A83238F47F4284E0D85CD7EB6 /* Pods-FitocracyTests-acknowledgements.plist */,
+				D079FDC9F29DDB040FB56C7E5CB44310 /* Pods-FitocracyTests-dummy.m */,
+				3CEA49B2F634502D7C71FFE3C63927F2 /* Pods-FitocracyTests-Info.plist */,
+				2A5F8C21098D7D603B69E8DE5CFCC8FC /* Pods-FitocracyTests-umbrella.h */,
+				FED6CFDFF3BB85EC0B1480A1871EFFE1 /* Pods-FitocracyTests.debug.xcconfig */,
+				BE97762C0B559F097894CBAB1BCF8E23 /* Pods-FitocracyTests.release.xcconfig */,
+			);
+			name = "Pods-FitocracyTests";
+			path = "Target Support Files/Pods-FitocracyTests";
+			sourceTree = "<group>";
+		};
+		95456475C0B67A0E321C9A92CFB5C945 /* Pods-Fitocracy-FitocracyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C1F4F8FD1DEEABE6506C7B97D68EBB0C /* Pods-Fitocracy-FitocracyUITests.modulemap */,
+				2858FFA9CC60138E4021D6ADD116BFA1 /* Pods-Fitocracy-FitocracyUITests-acknowledgements.markdown */,
+				B4B4B545B431C1F471B323C9E8C68104 /* Pods-Fitocracy-FitocracyUITests-acknowledgements.plist */,
+				4E05D5914FF4FA5F6E2DC476BD163AFA /* Pods-Fitocracy-FitocracyUITests-dummy.m */,
+				655D25D047649DFA7F099E04B065C103 /* Pods-Fitocracy-FitocracyUITests-frameworks.sh */,
+				8E7D00F0331949E2471978FE7A03E278 /* Pods-Fitocracy-FitocracyUITests-Info.plist */,
+				DF0D0176324EC00ADAD2278B7C22CA38 /* Pods-Fitocracy-FitocracyUITests-umbrella.h */,
+				1930506017581417BB762C50A1389648 /* Pods-Fitocracy-FitocracyUITests.debug.xcconfig */,
+				6B4E587FA20D0760E20A5E5CD6271B6E /* Pods-Fitocracy-FitocracyUITests.release.xcconfig */,
+			);
+			name = "Pods-Fitocracy-FitocracyUITests";
+			path = "Target Support Files/Pods-Fitocracy-FitocracyUITests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				5A1D44C3B1A35E05B2F214DAF6009B6C /* Pods */,
+				363C09A264F47B3659ECA90ECB38AE4E /* Products */,
+				DE42480EE5AAC4C9A5070280070200C5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE42480EE5AAC4C9A5070280070200C5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				218AE60DDA6412E826C50B42EC9BDE81 /* Pods-Fitocracy */,
+				95456475C0B67A0E321C9A92CFB5C945 /* Pods-Fitocracy-FitocracyUITests */,
+				847A2DBF2335264760FB4C0DCD68FA74 /* Pods-FitocracyTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E53E6D4D0E20AAA92C9BC54F3D923D48 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				77F6E113DD35D55EA43E9FF6BDCF14DD /* CBFlashyTabBarController.modulemap */,
+				964F055F8F54441F9105859AB238C261 /* CBFlashyTabBarController-dummy.m */,
+				8D357D22C297C079D4616D6B02B8D09A /* CBFlashyTabBarController-Info.plist */,
+				941BE188C756CE7699F45A802B5EE906 /* CBFlashyTabBarController-prefix.pch */,
+				CB596A9DACCCB6DAF36A5A1C56817CFC /* CBFlashyTabBarController-umbrella.h */,
+				7B91B1098565DC7A60758DC07DDC5908 /* CBFlashyTabBarController.debug.xcconfig */,
+				03CAE88AECD3AEEA158737D4F857A9D1 /* CBFlashyTabBarController.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CBFlashyTabBarController";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		62F1978C0B37B6CF768BDE43DCEC1CA1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DCBE3FD9516343EC2F88E21C98F6545 /* CBFlashyTabBarController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8338070C10C61A2CD94F31BFCAD64510 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64FF3B480672980E7CC5FF534AFB629B /* Pods-Fitocracy-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E515A5769E23B7C4266BA936ECEA1E2B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05588CC12D0F90950B3847CA80378A25 /* Pods-FitocracyTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB6E9A17112C01F602BD0625EFDF37D6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3910BBF620248927D5D0088E2128F4DA /* Pods-Fitocracy-FitocracyUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3FE1CF350417A0AEE9E7714673F62B2A /* Pods-Fitocracy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93EB7854FE68D99F53392F911B7F74C0 /* Build configuration list for PBXNativeTarget "Pods-Fitocracy" */;
+			buildPhases = (
+				8338070C10C61A2CD94F31BFCAD64510 /* Headers */,
+				305BD9E0B7D7B54E886177829468E95F /* Sources */,
+				2D38945FF156181BE7A7408402A8F4CD /* Frameworks */,
+				5C0FC5C47A1A11E58C669CBA4A92B567 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11F1C158EA8CC0CF6CECE314085FACF5 /* PBXTargetDependency */,
+			);
+			name = "Pods-Fitocracy";
+			productName = "Pods-Fitocracy";
+			productReference = 2343CA8F8625CB0E992CCC4B866A73EA /* Pods_Fitocracy.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5737872A76EFCB2A97F445D9434307C7 /* CBFlashyTabBarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4EA1075817653C75969BB78FDE8A3E2 /* Build configuration list for PBXNativeTarget "CBFlashyTabBarController" */;
+			buildPhases = (
+				62F1978C0B37B6CF768BDE43DCEC1CA1 /* Headers */,
+				2C7B8389C126323DF24AC36765366A63 /* Sources */,
+				3BEE1D632B16A9ACCFF58495438976F8 /* Frameworks */,
+				79005B9247B9C53EC894D5771438BAC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CBFlashyTabBarController;
+			productName = CBFlashyTabBarController;
+			productReference = 07D4E958BAD766CBA1D48DEB63D524C9 /* CBFlashyTabBarController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		76367FF2D0C80A9B1332D5BF4F9E3D89 /* Pods-FitocracyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79554665D8693E85E5D405B47710F4AC /* Build configuration list for PBXNativeTarget "Pods-FitocracyTests" */;
+			buildPhases = (
+				E515A5769E23B7C4266BA936ECEA1E2B /* Headers */,
+				25740FEFFC99A2EE40F3C239941DE938 /* Sources */,
+				F595165DBDAD93623AB3CEA76B75F7CA /* Frameworks */,
+				F5DE3F189FAB6FD9F19BF97C60EE9B1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79EF15235857B59D465C0BC09BDC1762 /* PBXTargetDependency */,
+			);
+			name = "Pods-FitocracyTests";
+			productName = "Pods-FitocracyTests";
+			productReference = 728F56D58FC7EDBFD487DE4C368A069C /* Pods_FitocracyTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B1576E1284E188ABC1FC1D182CF25748 /* Pods-Fitocracy-FitocracyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CA9C89E3829DD9782101A8BE8046E94 /* Build configuration list for PBXNativeTarget "Pods-Fitocracy-FitocracyUITests" */;
+			buildPhases = (
+				FB6E9A17112C01F602BD0625EFDF37D6 /* Headers */,
+				1DB508DE9374E92D9E2777F49C8DBC52 /* Sources */,
+				926D742B24516402BBC4E8C89480A940 /* Frameworks */,
+				89A5E6A01182572B0878107B07BE394A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03C701697862EABBAB7B1720956422BB /* PBXTargetDependency */,
+			);
+			name = "Pods-Fitocracy-FitocracyUITests";
+			productName = "Pods-Fitocracy-FitocracyUITests";
+			productReference = F09B9555F07B728D92A206D09568D3FE /* Pods_Fitocracy_FitocracyUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 363C09A264F47B3659ECA90ECB38AE4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5737872A76EFCB2A97F445D9434307C7 /* CBFlashyTabBarController */,
+				3FE1CF350417A0AEE9E7714673F62B2A /* Pods-Fitocracy */,
+				B1576E1284E188ABC1FC1D182CF25748 /* Pods-Fitocracy-FitocracyUITests */,
+				76367FF2D0C80A9B1332D5BF4F9E3D89 /* Pods-FitocracyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C0FC5C47A1A11E58C669CBA4A92B567 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79005B9247B9C53EC894D5771438BAC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89A5E6A01182572B0878107B07BE394A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5DE3F189FAB6FD9F19BF97C60EE9B1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DB508DE9374E92D9E2777F49C8DBC52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1728760560C928AC790D890F7311DE1C /* Pods-Fitocracy-FitocracyUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25740FEFFC99A2EE40F3C239941DE938 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				118D856F7CB220E45E94BFCDF0110452 /* Pods-FitocracyTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C7B8389C126323DF24AC36765366A63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8986CC7B2C9C15F1917E798117F644DC /* CBFlashyTabBar.swift in Sources */,
+				E82E20D4B21D30CC8A06C5CF540FDCF8 /* CBFlashyTabBarController-dummy.m in Sources */,
+				B62CE540AEC6C3C0CCEBC83B4EC04514 /* CBFlashyTabBarController.swift in Sources */,
+				5A15123627499A1087BD267801BA5BFC /* CBTabBarButton.swift in Sources */,
+				87E32330C480E15EA28EE9F7D772696F /* CBTabItemAnimation.swift in Sources */,
+				0BA46128F8D7479CCD09B2E88C109DB5 /* CBTabItemBasicAnimation.swift in Sources */,
+				92492D08B5FF542DDD2DF65BBEC64727 /* CBTabItemDeselectAnimation.swift in Sources */,
+				A211362205D10B7E1EB641AC03BB97EF /* CBTabItemSelectAnimation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		305BD9E0B7D7B54E886177829468E95F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				789B3DD682954E923FD35E67E86B74CD /* Pods-Fitocracy-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03C701697862EABBAB7B1720956422BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CBFlashyTabBarController;
+			target = 5737872A76EFCB2A97F445D9434307C7 /* CBFlashyTabBarController */;
+			targetProxy = A8E81EBE25D86C3FF7C27F3BF923EE53 /* PBXContainerItemProxy */;
+		};
+		11F1C158EA8CC0CF6CECE314085FACF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CBFlashyTabBarController;
+			target = 5737872A76EFCB2A97F445D9434307C7 /* CBFlashyTabBarController */;
+			targetProxy = 47774BAB1E5E5B21CDBC79E392A7B240 /* PBXContainerItemProxy */;
+		};
+		79EF15235857B59D465C0BC09BDC1762 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Fitocracy";
+			target = 3FE1CF350417A0AEE9E7714673F62B2A /* Pods-Fitocracy */;
+			targetProxy = 5FF69DC785E0E85A61ED751F5D0984AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		490D7F5080C3F3F961D7FF068639EA78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FED6CFDFF3BB85EC0B1480A1871EFFE1 /* Pods-FitocracyTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FitocracyTests/Pods-FitocracyTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FitocracyTests/Pods-FitocracyTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4AD727133B5DACBABBC1F4845B1F3D14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B91B1098565DC7A60758DC07DDC5908 /* CBFlashyTabBarController.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CBFlashyTabBarController/CBFlashyTabBarController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CBFlashyTabBarController/CBFlashyTabBarController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CBFlashyTabBarController/CBFlashyTabBarController.modulemap";
+				PRODUCT_MODULE_NAME = CBFlashyTabBarController;
+				PRODUCT_NAME = CBFlashyTabBarController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4D3583475A516656BA66B271CE75D766 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B4E587FA20D0760E20A5E5CD6271B6E /* Pods-Fitocracy-FitocracyUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Fitocracy-FitocracyUITests/Pods-Fitocracy-FitocracyUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Fitocracy-FitocracyUITests/Pods-Fitocracy-FitocracyUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		641E3EFE4E59ABEC7B72E6D62268E9C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE97762C0B559F097894CBAB1BCF8E23 /* Pods-FitocracyTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FitocracyTests/Pods-FitocracyTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FitocracyTests/Pods-FitocracyTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		71243899B61152433AAE34EE86456EE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		75D70EEEA0A456E14F7338A7F342964E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8E60A22BF962E0855D293E5454512F73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 101FACFA9602DE3DCD1C6BC9EBF2644C /* Pods-Fitocracy.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Fitocracy/Pods-Fitocracy-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Fitocracy/Pods-Fitocracy.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A36FCF4164F6CD458F3F10506D54A131 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1930506017581417BB762C50A1389648 /* Pods-Fitocracy-FitocracyUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Fitocracy-FitocracyUITests/Pods-Fitocracy-FitocracyUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Fitocracy-FitocracyUITests/Pods-Fitocracy-FitocracyUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C5CD98A6942C4545960966B2B87BE43D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 971EA86775F1BC1AF60F2F609F16355F /* Pods-Fitocracy.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Fitocracy/Pods-Fitocracy-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Fitocracy/Pods-Fitocracy.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F8B9C56DBFE81FE6896D3EBE0A91CBD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03CAE88AECD3AEEA158737D4F857A9D1 /* CBFlashyTabBarController.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CBFlashyTabBarController/CBFlashyTabBarController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CBFlashyTabBarController/CBFlashyTabBarController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CBFlashyTabBarController/CBFlashyTabBarController.modulemap";
+				PRODUCT_MODULE_NAME = CBFlashyTabBarController;
+				PRODUCT_NAME = CBFlashyTabBarController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D70EEEA0A456E14F7338A7F342964E /* Debug */,
+				71243899B61152433AAE34EE86456EE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79554665D8693E85E5D405B47710F4AC /* Build configuration list for PBXNativeTarget "Pods-FitocracyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				490D7F5080C3F3F961D7FF068639EA78 /* Debug */,
+				641E3EFE4E59ABEC7B72E6D62268E9C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93EB7854FE68D99F53392F911B7F74C0 /* Build configuration list for PBXNativeTarget "Pods-Fitocracy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E60A22BF962E0855D293E5454512F73 /* Debug */,
+				C5CD98A6942C4545960966B2B87BE43D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CA9C89E3829DD9782101A8BE8046E94 /* Build configuration list for PBXNativeTarget "Pods-Fitocracy-FitocracyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A36FCF4164F6CD458F3F10506D54A131 /* Debug */,
+				4D3583475A516656BA66B271CE75D766 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4EA1075817653C75969BB78FDE8A3E2 /* Build configuration list for PBXNativeTarget "CBFlashyTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AD727133B5DACBABBC1F4845B1F3D14 /* Debug */,
+				F8B9C56DBFE81FE6896D3EBE0A91CBD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

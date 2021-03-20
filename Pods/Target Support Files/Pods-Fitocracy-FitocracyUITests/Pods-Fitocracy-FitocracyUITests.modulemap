@@ -1,0 +1,6 @@
+framework module Pods_Fitocracy_FitocracyUITests {
+  umbrella header "Pods-Fitocracy-FitocracyUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

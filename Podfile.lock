@@ -1,0 +1,16 @@
+PODS:
+  - CBFlashyTabBarController (0.8.3)
+
+DEPENDENCIES:
+  - CBFlashyTabBarController
+
+SPEC REPOS:
+  trunk:
+    - CBFlashyTabBarController
+
+SPEC CHECKSUMS:
+  CBFlashyTabBarController: bc6b11dd4cbc9b54785c8944156e2f4d4f03b088
+
+PODFILE CHECKSUM: 659b722790611ba5372c4b436db630bcd8c25967
+
+COCOAPODS: 1.10.0

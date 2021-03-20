@@ -7,15 +7,13 @@
 
 import UIKit
 
-class ShiftViewController : UIViewController ,UITableViewDelegate,UITableViewDataSource {
+class ShiftViewController : UIViewController  {
     @IBOutlet weak var startWorkout: UIButton!
-    var arrImgData = [UIImage]()
-    var titles:[String] = ["Day Shift","Night Shift"]
-    var detail:[String] = ["I work all day and sleep at night","I’m a Night Owl, don’t care for sunlight"]
     
-    @IBOutlet weak var shiftCV: UITableView!
+    @IBOutlet weak var day: UIButton!
     
     
+    @IBOutlet weak var night: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,30 +24,33 @@ class ShiftViewController : UIViewController ,UITableViewDelegate,UITableViewDat
         imageView.contentMode = .scaleAspectFill
         view.addSubview(imageView)
         self.view.sendSubviewToBack(imageView)
-        shiftCV.delegate = self
-        shiftCV.dataSource = self
-        shiftCV.register(UINib.init(nibName: "DietTableViewCell", bundle: nil), forCellReuseIdentifier: "cell")
-        arrImgData = [#imageLiteral(resourceName: "Group 15"),#imageLiteral(resourceName: "Vector-4")]
+        
         startWorkout.layer.cornerRadius = 15
         startWorkout.clipsToBounds = true
 
         // Do any additional setup after loading the view.
     }
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        arrImgData.count
+    
+    
+    @IBAction func dayShift(_ sender: UIButton) {
+        if sender.isSelected {
+            sender.isSelected = false
+            night.isSelected = false
+        } else{
+            sender.isSelected = true
+            night.isSelected = false
+        }
     }
     
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! DietTableViewCell
-        cell.vector.image = arrImgData[indexPath.row]
-        cell.title.text = titles[indexPath.row]
-        cell.details.text = detail[indexPath.row]
-        return cell
+    @IBAction func nifgtShift(_ sender: UIButton) {
+        if sender.isSelected {
+            sender.isSelected = false
+            day.isSelected = false
+        } else{
+            sender.isSelected = true
+            day.isSelected = false
+        }
     }
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 80
-    }
-
     @IBAction func startWorkout(_ sender: Any) {
     }
     /*
