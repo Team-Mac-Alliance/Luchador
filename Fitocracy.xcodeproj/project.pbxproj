@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD5A24B82605F60B007A0CBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5A24B72605F60B007A0CBE /* AppDelegate.swift */; };
+		FD5A24BA2605F60B007A0CBE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5A24B92605F60B007A0CBE /* SceneDelegate.swift */; };
+		FD5A24BC2605F60B007A0CBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5A24BB2605F60B007A0CBE /* ViewController.swift */; };
+		FD5A24BF2605F60B007A0CBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD5A24BD2605F60B007A0CBE /* Main.storyboard */; };
+		FD5A24C12605F61A007A0CBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD5A24C02605F61A007A0CBE /* Assets.xcassets */; };
+		FD5A24C42605F61A007A0CBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD5A24C22605F61A007A0CBE /* LaunchScreen.storyboard */; };
+		FD5A24CF2605F61B007A0CBE /* FitocracyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5A24CE2605F61B007A0CBE /* FitocracyTests.swift */; };
+		FD5A24DA2605F61B007A0CBE /* FitocracyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5A24D92605F61B007A0CBE /* FitocracyUITests.swift */; };
+		FD5A24EB2605FA8F007A0CBE /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5A24EA2605FA8F007A0CBE /* LandingViewController.swift */; };
+		FD5A250626060467007A0CBE /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5A250526060467007A0CBE /* SignUpViewController.swift */; };
+		FD5A253F2606267F007A0CBE /* DietTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5A253D2606267F007A0CBE /* DietTableViewCell.swift */; };
+		FD5A25402606267F007A0CBE /* DietTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD5A253E2606267F007A0CBE /* DietTableViewCell.xib */; };
+		FD5A2545260628E3007A0CBE /* DietViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5A2544260628E3007A0CBE /* DietViewController.swift */; };
+		FD5A254A26062926007A0CBE /* EquipmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5A254926062926007A0CBE /* EquipmentViewController.swift */; };
+		FD5A254F26062955007A0CBE /* StartSurveyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5A254E26062955007A0CBE /* StartSurveyViewController.swift */; };
+		FD5A25542606296F007A0CBE /* ShiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5A25532606296F007A0CBE /* ShiftViewController.swift */; };
+		FD5A255926062F63007A0CBE /* ShiftTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5A255826062F63007A0CBE /* ShiftTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD5A24CB2605F61B007A0CBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD5A24AC2605F60B007A0CBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD5A24B32605F60B007A0CBE;
+			remoteInfo = Fitocracy;
+		};
+		FD5A24D62605F61B007A0CBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD5A24AC2605F60B007A0CBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD5A24B32605F60B007A0CBE;
+			remoteInfo = Fitocracy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD5A24B42605F60B007A0CBE /* Fitocracy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fitocracy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD5A24B72605F60B007A0CBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD5A24B92605F60B007A0CBE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FD5A24BB2605F60B007A0CBE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FD5A24BE2605F60B007A0CBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD5A24C02605F61A007A0CBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD5A24C32605F61A007A0CBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD5A24C52605F61A007A0CBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD5A24CA2605F61B007A0CBE /* FitocracyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitocracyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD5A24CE2605F61B007A0CBE /* FitocracyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitocracyTests.swift; sourceTree = "<group>"; };
+		FD5A24D02605F61B007A0CBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD5A24D52605F61B007A0CBE /* FitocracyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitocracyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD5A24D92605F61B007A0CBE /* FitocracyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitocracyUITests.swift; sourceTree = "<group>"; };
+		FD5A24DB2605F61B007A0CBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD5A24EA2605FA8F007A0CBE /* LandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
+		FD5A250526060467007A0CBE /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		FD5A253D2606267F007A0CBE /* DietTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietTableViewCell.swift; sourceTree = "<group>"; };
+		FD5A253E2606267F007A0CBE /* DietTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DietTableViewCell.xib; sourceTree = "<group>"; };
+		FD5A2544260628E3007A0CBE /* DietViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietViewController.swift; sourceTree = "<group>"; };
+		FD5A254926062926007A0CBE /* EquipmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentViewController.swift; sourceTree = "<group>"; };
+		FD5A254E26062955007A0CBE /* StartSurveyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartSurveyViewController.swift; sourceTree = "<group>"; };
+		FD5A25532606296F007A0CBE /* ShiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftViewController.swift; sourceTree = "<group>"; };
+		FD5A255826062F63007A0CBE /* ShiftTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD5A24B12605F60B007A0CBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD5A24C72605F61B007A0CBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD5A24D22605F61B007A0CBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD5A24AB2605F60B007A0CBE = {
+			isa = PBXGroup;
+			children = (
+				FD5A24B62605F60B007A0CBE /* Fitocracy */,
+				FD5A24CD2605F61B007A0CBE /* FitocracyTests */,
+				FD5A24D82605F61B007A0CBE /* FitocracyUITests */,
+				FD5A24B52605F60B007A0CBE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD5A24B52605F60B007A0CBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD5A24B42605F60B007A0CBE /* Fitocracy.app */,
+				FD5A24CA2605F61B007A0CBE /* FitocracyTests.xctest */,
+				FD5A24D52605F61B007A0CBE /* FitocracyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD5A24B62605F60B007A0CBE /* Fitocracy */ = {
+			isa = PBXGroup;
+			children = (
+				FD5A24B72605F60B007A0CBE /* AppDelegate.swift */,
+				FD5A24B92605F60B007A0CBE /* SceneDelegate.swift */,
+				FD5A24BB2605F60B007A0CBE /* ViewController.swift */,
+				FD5A24BD2605F60B007A0CBE /* Main.storyboard */,
+				FD5A25532606296F007A0CBE /* ShiftViewController.swift */,
+				FD5A255826062F63007A0CBE /* ShiftTableViewCell.swift */,
+				FD5A254E26062955007A0CBE /* StartSurveyViewController.swift */,
+				FD5A253D2606267F007A0CBE /* DietTableViewCell.swift */,
+				FD5A253E2606267F007A0CBE /* DietTableViewCell.xib */,
+				FD5A2544260628E3007A0CBE /* DietViewController.swift */,
+				FD5A254926062926007A0CBE /* EquipmentViewController.swift */,
+				FD5A250526060467007A0CBE /* SignUpViewController.swift */,
+				FD5A24EA2605FA8F007A0CBE /* LandingViewController.swift */,
+				FD5A24C02605F61A007A0CBE /* Assets.xcassets */,
+				FD5A24C22605F61A007A0CBE /* LaunchScreen.storyboard */,
+				FD5A24C52605F61A007A0CBE /* Info.plist */,
+			);
+			path = Fitocracy;
+			sourceTree = "<group>";
+		};
+		FD5A24CD2605F61B007A0CBE /* FitocracyTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD5A24CE2605F61B007A0CBE /* FitocracyTests.swift */,
+				FD5A24D02605F61B007A0CBE /* Info.plist */,
+			);
+			path = FitocracyTests;
+			sourceTree = "<group>";
+		};
+		FD5A24D82605F61B007A0CBE /* FitocracyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FD5A24D92605F61B007A0CBE /* FitocracyUITests.swift */,
+				FD5A24DB2605F61B007A0CBE /* Info.plist */,
+			);
+			path = FitocracyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD5A24B32605F60B007A0CBE /* Fitocracy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD5A24DE2605F61B007A0CBE /* Build configuration list for PBXNativeTarget "Fitocracy" */;
+			buildPhases = (
+				FD5A24B02605F60B007A0CBE /* Sources */,
+				FD5A24B12605F60B007A0CBE /* Frameworks */,
+				FD5A24B22605F60B007A0CBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fitocracy;
+			productName = Fitocracy;
+			productReference = FD5A24B42605F60B007A0CBE /* Fitocracy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD5A24C92605F61B007A0CBE /* FitocracyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD5A24E12605F61B007A0CBE /* Build configuration list for PBXNativeTarget "FitocracyTests" */;
+			buildPhases = (
+				FD5A24C62605F61B007A0CBE /* Sources */,
+				FD5A24C72605F61B007A0CBE /* Frameworks */,
+				FD5A24C82605F61B007A0CBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD5A24CC2605F61B007A0CBE /* PBXTargetDependency */,
+			);
+			name = FitocracyTests;
+			productName = FitocracyTests;
+			productReference = FD5A24CA2605F61B007A0CBE /* FitocracyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FD5A24D42605F61B007A0CBE /* FitocracyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD5A24E42605F61B007A0CBE /* Build configuration list for PBXNativeTarget "FitocracyUITests" */;
+			buildPhases = (
+				FD5A24D12605F61B007A0CBE /* Sources */,
+				FD5A24D22605F61B007A0CBE /* Frameworks */,
+				FD5A24D32605F61B007A0CBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD5A24D72605F61B007A0CBE /* PBXTargetDependency */,
+			);
+			name = FitocracyUITests;
+			productName = FitocracyUITests;
+			productReference = FD5A24D52605F61B007A0CBE /* FitocracyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD5A24AC2605F60B007A0CBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					FD5A24B32605F60B007A0CBE = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					FD5A24C92605F61B007A0CBE = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = FD5A24B32605F60B007A0CBE;
+					};
+					FD5A24D42605F61B007A0CBE = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = FD5A24B32605F60B007A0CBE;
+					};
+				};
+			};
+			buildConfigurationList = FD5A24AF2605F60B007A0CBE /* Build configuration list for PBXProject "Fitocracy" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD5A24AB2605F60B007A0CBE;
+			productRefGroup = FD5A24B52605F60B007A0CBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD5A24B32605F60B007A0CBE /* Fitocracy */,
+				FD5A24C92605F61B007A0CBE /* FitocracyTests */,
+				FD5A24D42605F61B007A0CBE /* FitocracyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD5A24B22605F60B007A0CBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD5A24C42605F61A007A0CBE /* LaunchScreen.storyboard in Resources */,
+				FD5A24C12605F61A007A0CBE /* Assets.xcassets in Resources */,
+				FD5A24BF2605F60B007A0CBE /* Main.storyboard in Resources */,
+				FD5A25402606267F007A0CBE /* DietTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD5A24C82605F61B007A0CBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD5A24D32605F61B007A0CBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD5A24B02605F60B007A0CBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD5A24BC2605F60B007A0CBE /* ViewController.swift in Sources */,
+				FD5A253F2606267F007A0CBE /* DietTableViewCell.swift in Sources */,
+				FD5A24B82605F60B007A0CBE /* AppDelegate.swift in Sources */,
+				FD5A2545260628E3007A0CBE /* DietViewController.swift in Sources */,
+				FD5A254F26062955007A0CBE /* StartSurveyViewController.swift in Sources */,
+				FD5A255926062F63007A0CBE /* ShiftTableViewCell.swift in Sources */,
+				FD5A24EB2605FA8F007A0CBE /* LandingViewController.swift in Sources */,
+				FD5A24BA2605F60B007A0CBE /* SceneDelegate.swift in Sources */,
+				FD5A250626060467007A0CBE /* SignUpViewController.swift in Sources */,
+				FD5A254A26062926007A0CBE /* EquipmentViewController.swift in Sources */,
+				FD5A25542606296F007A0CBE /* ShiftViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD5A24C62605F61B007A0CBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD5A24CF2605F61B007A0CBE /* FitocracyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD5A24D12605F61B007A0CBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD5A24DA2605F61B007A0CBE /* FitocracyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD5A24CC2605F61B007A0CBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD5A24B32605F60B007A0CBE /* Fitocracy */;
+			targetProxy = FD5A24CB2605F61B007A0CBE /* PBXContainerItemProxy */;
+		};
+		FD5A24D72605F61B007A0CBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD5A24B32605F60B007A0CBE /* Fitocracy */;
+			targetProxy = FD5A24D62605F61B007A0CBE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD5A24BD2605F60B007A0CBE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD5A24BE2605F60B007A0CBE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD5A24C22605F61A007A0CBE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD5A24C32605F61A007A0CBE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD5A24DC2605F61B007A0CBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD5A24DD2605F61B007A0CBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD5A24DF2605F61B007A0CBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 526BVV54R4;
+				INFOPLIST_FILE = Fitocracy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lkc.Fitocracy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD5A24E02605F61B007A0CBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 526BVV54R4;
+				INFOPLIST_FILE = Fitocracy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lkc.Fitocracy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FD5A24E22605F61B007A0CBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 526BVV54R4;
+				INFOPLIST_FILE = FitocracyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lkc.FitocracyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fitocracy.app/Fitocracy";
+			};
+			name = Debug;
+		};
+		FD5A24E32605F61B007A0CBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 526BVV54R4;
+				INFOPLIST_FILE = FitocracyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lkc.FitocracyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fitocracy.app/Fitocracy";
+			};
+			name = Release;
+		};
+		FD5A24E52605F61B007A0CBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 526BVV54R4;
+				INFOPLIST_FILE = FitocracyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lkc.FitocracyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fitocracy;
+			};
+			name = Debug;
+		};
+		FD5A24E62605F61B007A0CBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 526BVV54R4;
+				INFOPLIST_FILE = FitocracyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lkc.FitocracyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fitocracy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD5A24AF2605F60B007A0CBE /* Build configuration list for PBXProject "Fitocracy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD5A24DC2605F61B007A0CBE /* Debug */,
+				FD5A24DD2605F61B007A0CBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD5A24DE2605F61B007A0CBE /* Build configuration list for PBXNativeTarget "Fitocracy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD5A24DF2605F61B007A0CBE /* Debug */,
+				FD5A24E02605F61B007A0CBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD5A24E12605F61B007A0CBE /* Build configuration list for PBXNativeTarget "FitocracyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD5A24E22605F61B007A0CBE /* Debug */,
+				FD5A24E32605F61B007A0CBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD5A24E42605F61B007A0CBE /* Build configuration list for PBXNativeTarget "FitocracyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD5A24E52605F61B007A0CBE /* Debug */,
+				FD5A24E62605F61B007A0CBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD5A24AC2605F60B007A0CBE /* Project object */;
+}
