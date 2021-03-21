@@ -7,6 +7,8 @@ target 'Fitocracy' do
 
   # Pods for Fitocracy
     pod 'CBFlashyTabBarController'
+pod 'Firebase/Analytics'
+pod 'Firebase/Auth'
 
   target 'FitocracyTests' do
     inherit! :search_paths

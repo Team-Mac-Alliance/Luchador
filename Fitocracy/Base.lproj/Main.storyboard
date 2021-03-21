@@ -237,6 +237,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
+                                    <action selector="signUp:" destination="bfg-K6-OmT" eventType="touchUpInside" id="vLK-Sh-P7L"/>
                                     <segue destination="f5K-Pl-vfP" kind="show" id="yoP-pL-xGI"/>
                                 </connections>
                             </button>
@@ -575,12 +576,24 @@ provide a balanced diet which you can follow daily</string>
         <!--Profile-->
         <scene sceneID="JVB-vf-8im">
             <objects>
-                <viewController id="7IF-Ot-0mM" sceneMemberID="viewController">
+                <viewController id="7IF-Ot-0mM" customClass="ProfileViewController" customModule="Fitocracy" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MLE-cj-T3w">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You are not linked with the Database" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qAu-tg-KOl">
+                                <rect key="frame" x="56.666666666666657" y="384.66666666666669" width="277" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="OOd-QM-9ft"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="qAu-tg-KOl" firstAttribute="centerX" secondItem="MLE-cj-T3w" secondAttribute="centerX" id="4xN-9V-G7U"/>
+                            <constraint firstItem="qAu-tg-KOl" firstAttribute="centerY" secondItem="MLE-cj-T3w" secondAttribute="centerY" id="ZT3-c6-YQz"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Profile" image="ic_user" id="MS6-gC-QlQ"/>
                 </viewController>
@@ -591,12 +604,24 @@ provide a balanced diet which you can follow daily</string>
         <!--Diet-->
         <scene sceneID="tPQ-xU-P2Y">
             <objects>
-                <viewController id="GuV-lY-Kxe" sceneMemberID="viewController">
+                <viewController id="GuV-lY-Kxe" customClass="DietTabViewController" customModule="Fitocracy" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="RL3-ac-aW1">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Diet Chart present yet" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ttw-Vc-o6H">
+                                <rect key="frame" x="98" y="384.66666666666669" width="194" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="ucx-lz-8ke"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Ttw-Vc-o6H" firstAttribute="centerX" secondItem="RL3-ac-aW1" secondAttribute="centerX" id="Po2-w5-ADy"/>
+                            <constraint firstItem="Ttw-Vc-o6H" firstAttribute="centerY" secondItem="RL3-ac-aW1" secondAttribute="centerY" id="iWC-dR-Rye"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Diet" image="fluent_food-24-filled" id="OVW-uq-1oa"/>
                 </viewController>
@@ -607,12 +632,24 @@ provide a balanced diet which you can follow daily</string>
         <!--Workouts-->
         <scene sceneID="8iI-57-1UF">
             <objects>
-                <viewController id="MGK-8M-PiE" sceneMemberID="viewController">
+                <viewController id="MGK-8M-PiE" customClass="WorkoutViewController" customModule="Fitocracy" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9tI-dv-4vS">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Workouts present yet" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="win-aW-Moq">
+                                <rect key="frame" x="100.66666666666669" y="384.66666666666669" width="189" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="eVW-Di-0P0"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="win-aW-Moq" firstAttribute="centerX" secondItem="9tI-dv-4vS" secondAttribute="centerX" id="pl7-hP-Dps"/>
+                            <constraint firstItem="win-aW-Moq" firstAttribute="centerY" secondItem="9tI-dv-4vS" secondAttribute="centerY" id="qhm-Bc-tG6"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Workouts" image="ic_gridLayout" id="EwK-7W-yRO"/>
                 </viewController>

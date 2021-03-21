@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>904361384897-u9h4nv1p20ojp7sfkhl2ba0rhanenalb.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.904361384897-u9h4nv1p20ojp7sfkhl2ba0rhanenalb</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBesGrCOHqfszipdIO2ePu53ERBNZPjc3s</string>
+	<key>GCM_SENDER_ID</key>
+	<string>904361384897</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>lkc.Fitocracy</string>
+	<key>PROJECT_ID</key>
+	<string>fitocracy-afeec</string>
+	<key>STORAGE_BUCKET</key>
+	<string>fitocracy-afeec.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:904361384897:ios:14bc1ea6d2bf1f545bad40</string>
+</dict>
+</plist>

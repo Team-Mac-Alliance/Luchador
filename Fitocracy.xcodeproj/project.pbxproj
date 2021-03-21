@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		8BE1F8439317DDFEB6257B49 /* Pods_FitocracyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C553A9E0DBED869D649EE05 /* Pods_FitocracyTests.framework */; };
+		B417BA352606F27D00BEECCA /* WorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B417BA342606F27D00BEECCA /* WorkoutViewController.swift */; };
+		B417BA3A2606F28E00BEECCA /* DietTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B417BA392606F28E00BEECCA /* DietTabViewController.swift */; };
+		B417BA3F2606F29900BEECCA /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B417BA3E2606F29900BEECCA /* ProfileViewController.swift */; };
+		B4B95F762606EB92003CDEA6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4B95F752606EB92003CDEA6 /* GoogleService-Info.plist */; };
 		D02C380D186A7CAE6E1CEC3C /* Pods_Fitocracy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0245FA2399739848F1A4049 /* Pods_Fitocracy.framework */; };
 		E064B42FF49E671CB8496A77 /* Pods_Fitocracy_FitocracyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2828BB584C6C69C6F70D13F /* Pods_Fitocracy_FitocracyUITests.framework */; };
 		FD58EEC72606980800B0D87D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD58EEC62606980800B0D87D /* LoginViewController.swift */; };
@@ -53,6 +57,10 @@
 		5B577F752F5FF85BDD74437C /* Pods-Fitocracy-FitocracyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fitocracy-FitocracyUITests.release.xcconfig"; path = "Target Support Files/Pods-Fitocracy-FitocracyUITests/Pods-Fitocracy-FitocracyUITests.release.xcconfig"; sourceTree = "<group>"; };
 		76B8542741726A7970B3A166 /* Pods-FitocracyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitocracyTests.release.xcconfig"; path = "Target Support Files/Pods-FitocracyTests/Pods-FitocracyTests.release.xcconfig"; sourceTree = "<group>"; };
 		A2828BB584C6C69C6F70D13F /* Pods_Fitocracy_FitocracyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fitocracy_FitocracyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B417BA342606F27D00BEECCA /* WorkoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutViewController.swift; sourceTree = "<group>"; };
+		B417BA392606F28E00BEECCA /* DietTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietTabViewController.swift; sourceTree = "<group>"; };
+		B417BA3E2606F29900BEECCA /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		B4B95F752606EB92003CDEA6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C0245FA2399739848F1A4049 /* Pods_Fitocracy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fitocracy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C587A5A89C0F41E265DBCC39 /* Pods-Fitocracy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fitocracy.debug.xcconfig"; path = "Target Support Files/Pods-Fitocracy/Pods-Fitocracy.debug.xcconfig"; sourceTree = "<group>"; };
 		FD58EEC62606980800B0D87D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -120,6 +128,48 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		B417BA432606F2A700BEECCA /* AuthVC's */ = {
+			isa = PBXGroup;
+			children = (
+				FD58EEC62606980800B0D87D /* LoginViewController.swift */,
+				FD5A250526060467007A0CBE /* SignUpViewController.swift */,
+				FD5A24EA2605FA8F007A0CBE /* LandingViewController.swift */,
+			);
+			path = "AuthVC's";
+			sourceTree = "<group>";
+		};
+		B417BA472606F2CE00BEECCA /* SurveyVC's */ = {
+			isa = PBXGroup;
+			children = (
+				FD5A25532606296F007A0CBE /* ShiftViewController.swift */,
+				FD5A255826062F63007A0CBE /* ShiftTableViewCell.swift */,
+				FD5A254E26062955007A0CBE /* StartSurveyViewController.swift */,
+				FD5A2544260628E3007A0CBE /* DietViewController.swift */,
+				FD5A254926062926007A0CBE /* EquipmentViewController.swift */,
+			);
+			path = "SurveyVC's";
+			sourceTree = "<group>";
+		};
+		B417BA4B2606F2E000BEECCA /* TabBarVC's */ = {
+			isa = PBXGroup;
+			children = (
+				B417BA342606F27D00BEECCA /* WorkoutViewController.swift */,
+				B417BA392606F28E00BEECCA /* DietTabViewController.swift */,
+				B417BA3E2606F29900BEECCA /* ProfileViewController.swift */,
+			);
+			path = "TabBarVC's";
+			sourceTree = "<group>";
+		};
+		B417BA4F2606F2FD00BEECCA /* SupportingVC's */ = {
+			isa = PBXGroup;
+			children = (
+				FD5A24B72605F60B007A0CBE /* AppDelegate.swift */,
+				FD5A24B92605F60B007A0CBE /* SceneDelegate.swift */,
+				FD5A24BB2605F60B007A0CBE /* ViewController.swift */,
+			);
+			path = "SupportingVC's";
+			sourceTree = "<group>";
+		};
 		C955A4362CED5A7AF94332A4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -155,21 +205,15 @@
 		FD5A24B62605F60B007A0CBE /* Fitocracy */ = {
 			isa = PBXGroup;
 			children = (
-				FD5A24B72605F60B007A0CBE /* AppDelegate.swift */,
-				FD5A24B92605F60B007A0CBE /* SceneDelegate.swift */,
-				FD5A24BB2605F60B007A0CBE /* ViewController.swift */,
+				B417BA4F2606F2FD00BEECCA /* SupportingVC's */,
 				FD5A24BD2605F60B007A0CBE /* Main.storyboard */,
-				FD58EEC62606980800B0D87D /* LoginViewController.swift */,
-				FD5A25532606296F007A0CBE /* ShiftViewController.swift */,
-				FD5A255826062F63007A0CBE /* ShiftTableViewCell.swift */,
-				FD5A254E26062955007A0CBE /* StartSurveyViewController.swift */,
-				FD5A2544260628E3007A0CBE /* DietViewController.swift */,
-				FD5A254926062926007A0CBE /* EquipmentViewController.swift */,
-				FD5A250526060467007A0CBE /* SignUpViewController.swift */,
-				FD5A24EA2605FA8F007A0CBE /* LandingViewController.swift */,
+				B417BA432606F2A700BEECCA /* AuthVC's */,
+				B417BA472606F2CE00BEECCA /* SurveyVC's */,
+				B417BA4B2606F2E000BEECCA /* TabBarVC's */,
 				FD5A24C02605F61A007A0CBE /* Assets.xcassets */,
 				FD5A24C22605F61A007A0CBE /* LaunchScreen.storyboard */,
 				FD5A24C52605F61A007A0CBE /* Info.plist */,
+				B4B95F752606EB92003CDEA6 /* GoogleService-Info.plist */,
 			);
 			path = Fitocracy;
 			sourceTree = "<group>";
@@ -302,6 +346,7 @@
 			files = (
 				FD5A24C42605F61A007A0CBE /* LaunchScreen.storyboard in Resources */,
 				FD5A24C12605F61A007A0CBE /* Assets.xcassets in Resources */,
+				B4B95F762606EB92003CDEA6 /* GoogleService-Info.plist in Resources */,
 				FD5A24BF2605F60B007A0CBE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,13 +475,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B417BA352606F27D00BEECCA /* WorkoutViewController.swift in Sources */,
 				FD58EEC72606980800B0D87D /* LoginViewController.swift in Sources */,
 				FD5A24BC2605F60B007A0CBE /* ViewController.swift in Sources */,
 				FD5A24B82605F60B007A0CBE /* AppDelegate.swift in Sources */,
+				B417BA3F2606F29900BEECCA /* ProfileViewController.swift in Sources */,
 				FD5A2545260628E3007A0CBE /* DietViewController.swift in Sources */,
 				FD5A254F26062955007A0CBE /* StartSurveyViewController.swift in Sources */,
 				FD5A255926062F63007A0CBE /* ShiftTableViewCell.swift in Sources */,
 				FD5A24EB2605FA8F007A0CBE /* LandingViewController.swift in Sources */,
+				B417BA3A2606F28E00BEECCA /* DietTabViewController.swift in Sources */,
 				FD5A24BA2605F60B007A0CBE /* SceneDelegate.swift in Sources */,
 				FD5A250626060467007A0CBE /* SignUpViewController.swift in Sources */,
 				FD5A254A26062926007A0CBE /* EquipmentViewController.swift in Sources */,
